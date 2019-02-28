@@ -1,7 +1,6 @@
 #include "pch.h"
 #include "Ball.h"
 
-
 Ball::Ball() : x{ 100 }, y{ 100 }, dx{ 4 }, dy{ 4 }, shape(sf::Vector2f(20, 20))
 {
 	shape.setFillColor(sf::Color::White);
@@ -37,6 +36,3 @@ void Ball::draw(sf::RenderWindow& window)
 	shape.setPosition(x, y);
 	window.draw(shape);
 }
-
-Ball::~Ball()
-{}
