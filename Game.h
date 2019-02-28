@@ -9,7 +9,6 @@ class Game
 public:
 	Game();
 	void Run(); // Game run
-	~Game();
 private:
 	void DrawField();
 	sf::RenderWindow window;
