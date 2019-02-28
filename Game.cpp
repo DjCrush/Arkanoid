@@ -1,7 +1,6 @@
 #include "pch.h"
 #include "Game.h"
 
-
 Game::Game() : ball{ new Ball() }, paddle{ new Paddle() }  // Game init
 {
 	window.create(sf::VideoMode(1024, 768), "Arkanoid");
