@@ -12,8 +12,6 @@ const int FIELD_HEIGHT = 736;
 const int BLOCK_WIDTH = 60;
 const int BLOCK_HEIGHT = 28;
 
-
-
 int main()
 {
 	Game *game = new Game();
