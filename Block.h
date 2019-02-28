@@ -24,12 +24,10 @@ color_blocks a[14][11] = {
 	{color_blocks::EMPTY,color_blocks::EMPTY,color_blocks::EMPTY,color_blocks::EMPTY,color_blocks::EMPTY,color_blocks::EMPTY,color_blocks::EMPTY,color_blocks::EMPTY,color_blocks::EMPTY,color_blocks::EMPTY,color_blocks::EMPTY},
 };
 
-
 class Block
 {
 public:
 	Block(int x, int y, color_blocks color);
-	~Block();
 	int x, y;
 	color_blocks color;
 };
