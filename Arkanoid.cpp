@@ -1,7 +1,4 @@
-﻿#include "pch.h"
 #include <SFML/Graphics.hpp>
-#include <iostream>
-#include <list>
 #include "Game.h"
 #include "Ball.h"
 #include "Paddle.h"
